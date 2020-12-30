@@ -8,7 +8,7 @@ The ingest node intercepts bulk and index requests, it applies transformations, 
 passes the documents back to the index or bulk APIs.
 
 All nodes enable ingest by default, so any node can handle ingest tasks. You can also create
-dedicated ingest nodes. To disable ingest for a node, configure the following setting in the
+dedicated ingest nodes. To only enable ingest role for a node, configure the following setting in the
 elasticsearch.yml file:
 
 [source,yaml]
